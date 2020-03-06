@@ -1,0 +1,20 @@
+.distance{
+    margin-left: 31%;
+    margin-top: -2%;
+}
+
+.btn_size{
+    width: auto;
+    height: 10% !important;
+    background-color: white !important;
+    color: rgb(94, 87, 87) !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+}
+.btn2{
+    width: auto;
+    height: 10% !important;
+    color: white!important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+}

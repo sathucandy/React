@@ -1,0 +1,9 @@
+.position {
+  float: right;
+  margin-top: 2%;
+  margin-right: 4.5%;
+}
+
+.caret::after{
+  margin-left: 60% !important;
+}

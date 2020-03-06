@@ -1,0 +1,28 @@
+.navbar-brand {
+  color: white;
+  font-weight: bold;
+  font-size: 185%;
+}
+
+.styled {
+  padding-top: 3% !important;
+  background-color: #2a90f1;
+}
+.navTitle {
+  color: white !important;
+  font-size: 30px !important;
+  font-weight: bold;
+}
+
+.navLink {
+  color: white !important;
+  margin-left: 50px !important;
+  font-weight: 800 !important;
+}
+
+.bttn {
+  margin-left: 1%;
+  width: 15%;
+  background-color: #62ABF4 !important;
+  border-radius: 7px !important;
+}

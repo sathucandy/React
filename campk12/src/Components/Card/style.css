@@ -1,0 +1,72 @@
+.card-info {
+  padding: 16px 12px 24px 20px;
+  box-sizing: border-box;
+  position: relative;
+  width: 330px;
+  height: 477px;
+  margin-top: 5%;
+  margin-bottom: 15%;
+}
+.card-sub-req {
+  font-size: 12px;
+  margin-top: 16px;
+  letter-spacing: 0.1px;
+  color: #1f2a55;
+  display: flex;
+  font-family: Montserrat !important;
+  font-weight: 400;
+  justify-content: space-between;
+  margin-right: 2%;
+}
+.card-title {
+  max-width: 265px;
+  text-align: left;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  color: #1f2a55;
+  display: block !important;
+  display: -webkit-box !important;
+  font-family: Montserrat !important;
+  -webkit-line-clamp: 2;
+  -moz-line-clamp: 2;
+  -ms-line-clamp: 2;
+  -o-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  -o-box-orient: vertical;
+  box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  height: 46px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.text,
+.card .card-info .card-sub-req .pre-req .text {
+  font-size: 12px;
+  line-height: normal;
+  letter-spacing: 0.17px;
+  text-transform: uppercase;
+  color: rgba(15, 24, 63, 0.4);
+}
+
+.size{
+  font-size: 15px !important;
+}
+
+.but {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.spacing {
+  margin-left: -45px;
+  margin-top: -2% !important;
+  color: #97a199;
+  text-decoration-line: line-through;
+}

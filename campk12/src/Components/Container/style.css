@@ -1,0 +1,19 @@
+.styling {
+  background-color: white;
+  margin-top: -1.75%;
+  margin-bottom: 5%;
+}
+.styles {
+  margin-top: 5%;
+  margin-left: 1.5%;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  color: #1f2a55;
+  font-family: Montserrat;
+  font-weight: 400;
+  position: relative;
+}
+
+.dis {
+  margin-top: 6%;
+}
