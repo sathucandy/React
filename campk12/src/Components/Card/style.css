@@ -1,8 +1,8 @@
 .card-info {
-  padding: 16px 12px 24px 20px;
+  padding: 16px 12px 0px 20px;
   box-sizing: border-box;
   position: relative;
-  width: 330px;
+  width: 335px;
   height: 477px;
   margin-top: 5%;
   margin-bottom: 15%;
@@ -13,8 +13,8 @@
   letter-spacing: 0.1px;
   color: #1f2a55;
   display: flex;
-  font-family: Montserrat !important;
-  font-weight: 400;
+  font-family: Roboto !important;
+  font-weight: 200;
   justify-content: space-between;
   margin-right: 2%;
 }
@@ -27,7 +27,7 @@
   color: #1f2a55;
   display: block !important;
   display: -webkit-box !important;
-  font-family: Montserrat !important;
+  font-family: Roboto !important;
   -webkit-line-clamp: 2;
   -moz-line-clamp: 2;
   -ms-line-clamp: 2;
@@ -53,10 +53,21 @@
   letter-spacing: 0.17px;
   text-transform: uppercase;
   color: rgba(15, 24, 63, 0.4);
+  font-weight: 600;
 }
 
-.size{
+.size {
   font-size: 15px !important;
+  padding-top: 3px !important;
+}
+.dist {
+  padding-left: -30px !important;
+  margin-right: 10px !important;
+}
+
+.second_part {
+  font-size: 15px !important;
+  opacity: 0.8 !important;
 }
 
 .but {
@@ -65,7 +76,7 @@
 }
 
 .spacing {
-  margin-left: -45px;
+  margin-left: -5px;
   margin-top: -2% !important;
   color: #97a199;
   text-decoration-line: line-through;

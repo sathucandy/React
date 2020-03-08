@@ -6,23 +6,33 @@
 
 .styled {
   padding-top: 3% !important;
-  background-color: #2a90f1;
+  background-color: rgb(15, 40, 184);
 }
 .navTitle {
   color: white !important;
   font-size: 30px !important;
   font-weight: bold;
+  font-family: Roboto !important;
 }
 
 .navLink {
   color: white !important;
-  margin-left: 50px !important;
-  font-weight: 800 !important;
+  margin-left: 40px !important;
+  font-family: Roboto !important;
+  font-weight: bold !important;
+}
+
+.letspac{
+  letter-spacing: 2px;
 }
 
 .bttn {
   margin-left: 1%;
-  width: 15%;
-  background-color: #62ABF4 !important;
+  width: 13%;
   border-radius: 7px !important;
+  font-family: Roboto !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  background-color: rgba(255, 255, 255, 0.27) !important;
+  border: none !important;
 }

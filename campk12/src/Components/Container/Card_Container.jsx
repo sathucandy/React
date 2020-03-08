@@ -8,11 +8,11 @@ import Container_Header from "../Container_Header/Container_Header";
 export class Card_Container extends Component {
   render() {
     return (
-      <div>
+      <div className="container-fluid">
         <Container className="styling">
           <Container_Header />
-          <Row>
-            <Col className="dis">
+          <Row style={{ marginTop: "3%" }}>
+            <Col>
               <p className="styles">
                 Showing <b>All</b> Courses for <b>Grades 5-8</b>
               </p>

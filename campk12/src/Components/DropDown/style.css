@@ -6,4 +6,5 @@
 
 .caret::after{
   margin-left: 60% !important;
+  font-size: large;
 }

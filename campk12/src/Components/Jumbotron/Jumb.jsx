@@ -7,7 +7,7 @@ export default class Jumb extends Component {
   render() {
     return (
       <div>
-        <Jumbotron fluid  style={{ background: "#2A90F1" }}>
+        <Jumbotron fluid className="jumb" >
           <Container fluid>
             <MainArea />
           </Container>

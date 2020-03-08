@@ -8,7 +8,11 @@ export class DropDown extends Component {
       width: "250px",
       textAlign: "left",
       background: "none",
-      color: "grey"
+      color: "black",
+      height: "40px",
+      fontSize: "13px",
+      opacity: "0.6",
+      border: "1px solid #0000002e"
     };
     return (
       <div>

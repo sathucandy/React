@@ -26,25 +26,29 @@ export class Top_Nav extends Component {
       </>
     ));
     return (
-      <div style={{ backgroundColor: "#2A90F1" }}>
+      <div className="" style={{ backgroundColor: "rgb(15, 40, 184)" }}>
         <Container>
           <Navbar className="styled" light expand="md">
             <NavbarBrand href="/" className="navTitle">
               CAMPK12
             </NavbarBrand>
             <Collapse navbar>
-              <Nav className="mr-auto" navbar>
+              <Nav className="mr-auto letspac" navbar>
                 {something}
               </Nav>
-              <Button color="primary" className="bttn">
-                FREE TRIAL
+              <Button
+                color="primary"
+                className="bttn"
+                style={{ height: "38px" }}
+              >
+                <span style={{ opacity: "0.7" }}>FREE TRIAL</span>
               </Button>
               <Button
                 color="primary"
                 className="bttn"
-                style={{ marginRight: "-5%" }}
+                style={{ marginRight: "-5%", height: "38px" }}
               >
-                LOG IN
+                <span style={{ opacity: "0.7" }}>LOG IN</span>
               </Button>
             </Collapse>
           </Navbar>

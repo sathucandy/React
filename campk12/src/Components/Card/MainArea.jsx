@@ -118,7 +118,7 @@ class MainArea extends Component {
 
     return (
       <div>
-        <Container>
+        <Container style= {{marginTop: "2%"}}>
           <Row>{cards}</Row>
         </Container>
       </div>
