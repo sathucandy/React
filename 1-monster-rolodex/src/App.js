@@ -5,21 +5,18 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      monster: [
-        {
-          name: "Frankenstien",
-          id: "asc1",
-        },
-        {
-          name: "Dracula",
-          id: "asc2",
-        },
-        {
-          name: "Zombie",
-          id: "asc3",
-        },
-      ],
+      monster: [],
     };
+  }
+  componentDidMount() {
+    // fetch is a javascript method to get the data from url which returns a promise
+    fetch("http://jsonplaceholder.typicode.com/users")
+      .then((response) => {
+        return response.json();
+      })
+      .then((users) => {
+        this.setState({ monster: users });
+      });
   }
   render() {
     return (
