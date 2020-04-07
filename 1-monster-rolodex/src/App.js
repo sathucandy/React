@@ -21,6 +21,18 @@ class App extends Component {
         this.setState({ monsters: users });
       });
   }
+
+  // handleChange(event) {
+  //   /* console.log(e.target.value);*/                              IF USING THIS WAY OF METHOD THEN WE HAVE TO BIND IT IN THE CONSTRUCTOR  this.handleChange = this.handleChange.bind(this);
+  //   this.setState({ searchField: event.target.value }, () => {
+  //     console.log(this.state);
+  //   });
+  // }
+
+  handleChange = (event) => {
+    this.setState({ searchField: event.target.value });
+  };
+
   render() {
     // const monsters = this.state.mosters
     // const searchField = this.state.searchField
@@ -32,14 +44,7 @@ class App extends Component {
       <div className="App">
         <SearchBox
           placeholder="search monsters"
-          handleChange={(event) =>
-            /* console.log(e.target.value);*/ this.setState(
-              { searchField: event.target.value },
-              () => {
-                console.log(this.state);
-              }
-            )
-          }
+          handleChange={this.handleChange}
         />
         <CardList monsters={filteredMonsters} />
       </div>
